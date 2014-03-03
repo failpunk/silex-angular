@@ -1,0 +1,11 @@
+/vendor
+/.idea
+/.sass-cache
+/web/js/vendor/
+
+/cache
+
+# css
+/web/sass/main.css
+/web/assetic/js/*
+/web/assetic/css/*

@@ -1,0 +1,19 @@
+{
+  "name": "failpunk/silex-angular",
+  "description": "Simple frontend silex angular application",
+
+  "require": {
+    "php": ">=5.4",
+    "silex/silex": "~1.1",
+    "twig/twig": ">=1.8,<2.0-dev",
+    "kriswallsmith/assetic": "~1.1",
+    "mheap/silex-assetic": "~1.0"
+  },
+
+  "autoload": {
+
+    "classmap": [
+      "app/"
+    ]
+  }
+}

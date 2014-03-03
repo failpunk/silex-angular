@@ -1,0 +1,14 @@
+{
+  "vendor": [
+    "js/vendor/angular-ui-router/release/angular-ui-router.min.js",
+    "js/vendor/angular-bootstrap/ui-bootstrap.min.js",
+    "js/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"
+  ],
+
+  "main": [
+    "js/angular.app.js",
+    [
+      "components/navBar/navBar.js"
+    ]
+  ]
+}
