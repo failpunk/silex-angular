@@ -69,8 +69,7 @@ $app['assetic.asset_manager'] = $app->share(
  */
 
 $app->get('/', function () use ($app) {
-  return $app->render('home/home.twig', []);
+  return $app->render('home.twig', []);
 });
-
 
 return $app;

@@ -16,12 +16,36 @@
     </head>
     <body ng-cloak>
 
-        <div ng-include="'components/navBar/templates/navBar.html'"></div>
+    <div class="site-wrapper">
 
-        <!-- Add your site or application content here -->
-      {% block content %}
-          <p>This is some default content in the base template</p>
-      {% endblock %}
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div ng-include="'components/navBar/templates/navBar.html'"></div>
+
+
+          <!-- Add your site or application content here -->
+          <div class="inner cover">
+          {% block content %}
+            <h1 class="cover-heading">Default Content.</h1>
+          {% endblock %}
+          </div>
+
+
+          <div class="mastfoot">
+            <div class="inner">
+              {% block footer %}
+                <p>silex-angular on <a href="https://github.com/failpunk/silex-angular">github</a>, by <a href="https://twitter.com/failpunk">@failpunk</a>.</p>
+              {% endblock %}
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
 
       {% block javascript %}
